@@ -6,6 +6,13 @@ namespace happyproff\YiiStatics;
 
 
 
+use CApplicationComponent;
+use CClientScript;
+use CException;
+use Yii;
+
+
+
 class YiiStatics extends CApplicationComponent {
 
 
@@ -18,7 +25,7 @@ class YiiStatics extends CApplicationComponent {
      * @param string $cssFile for examlple 'main.css' or 'notifications/main.css'
      * @param string|null $pathAlias for example 'application.assets.styles'
      * @param string string $media
-     * @return Statics
+     * @return YiiStatics
      * @throws CException
      */
     public function css ($cssFile, $pathAlias = null, $media = '') {
@@ -46,7 +53,7 @@ class YiiStatics extends CApplicationComponent {
      * @param string $jsFile for example 'main.js' or 'personal/jesus.js'
      * @param string|null $pathAlias for example 'application.assets.scripts'
      * @param int $position
-     * @return $this
+     * @return YiiStatics
      * @throws CException
      */
     public function js ($jsFile, $pathAlias = null, $position = CClientScript::POS_END) {

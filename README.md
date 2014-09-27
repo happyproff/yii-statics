@@ -29,6 +29,6 @@ Easy publishing css and js in Yii project.
 Добавление css:
 
 ```php
-Yii::app()->statics->css('shop/cart.css'); // Опубликует файл app/assets/shop/cart.css
-Yii::app()->statics->js('services.js'); // Опубликует файл app/assets/services.css
+Yii::app()->statics->css('shop/cart'); // Опубликует файл app/assets/shop/cart.css
+Yii::app()->statics->js('services'); // Опубликует файл app/assets/services.css
 ```
