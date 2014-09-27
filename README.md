@@ -1,7 +1,7 @@
-yii-processlock
+yii-statics
 ==============
 
-[![License](https://poser.pugx.org/happyproff/yii-processlock/license.svg)](https://packagist.org/packages/happyproff/yii-processlock)
+[![License](https://poser.pugx.org/happyproff/yii-statics/license.svg)](https://packagist.org/packages/happyproff/yii-statics)
 
 Easy publishing css and js in Yii project.
 
