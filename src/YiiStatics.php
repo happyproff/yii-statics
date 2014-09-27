@@ -6,10 +6,10 @@ namespace happyproff\YiiStatics;
 
 
 
+use Yii;
 use CApplicationComponent;
 use CClientScript;
 use CException;
-use Yii;
 
 
 
